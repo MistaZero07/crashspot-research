@@ -21,9 +21,9 @@ This document tracks weekly progress for the **Crashspot Research Project**
 - 📊 Workflow diagram: `Week1_Workflow.png`
 
 ## 🌍 Live Maps
-
 - [Monroe Fatal Crashes (2022–2023)](./maps/monroe_fars_2022_2023.html)
 - [All Maps Index](./maps/)
+
 
 
 ---
