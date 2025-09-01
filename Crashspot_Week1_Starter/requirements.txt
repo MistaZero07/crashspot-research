@@ -1,0 +1,14 @@
+# Core geospatial & analysis stack
+geopandas
+shapely
+rasterio
+folium
+scikit-learn
+matplotlib
+pandas
+numpy
+
+# Optional but useful
+fiona
+pyproj
+rtree

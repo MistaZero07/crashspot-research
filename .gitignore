@@ -1,0 +1,9 @@
+data_raw/*
+data_clean/*
+outputs/*
+!data_raw/.gitkeep
+!data_clean/.gitkeep
+!outputs/.gitkeep
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
