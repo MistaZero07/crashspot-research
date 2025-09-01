@@ -20,6 +20,12 @@ This document tracks weekly progress for the **Crashspot Research Project**
 - 📄 Report: `Crashspot_Week1_Report.docx`
 - 📊 Workflow diagram: `Week1_Workflow.png`
 
+## 🌍 Live Maps
+
+- [Monroe Fatal Crashes (2022–2023)](./maps/monroe_fars_2022_2023.html)
+- [All Maps Index](./maps/)
+
+
 ---
 
 ## Week 2 (Sept 8–14, 2025)
