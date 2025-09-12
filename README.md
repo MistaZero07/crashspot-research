@@ -28,8 +28,19 @@ Crashspot/
 - Report: `docs/Crashspot_Week1_Report.docx`
 - Workflow diagram: `docs/Week1_Workflow.png`
 
+## 🗂️ Week 2 Accomplishments
+- Standardized FARS fields (YEAR, MONTH, DAY, HOUR → numeric + DATE column)
+- Cleaned invalid coordinates & ensured CRS = WGS84 (EPSG:4326)
+- Generated summary tables (year, month, hour, county)
+- Produced bar charts:
+  - Louisiana crashes by month (`la_by_month.png`)
+  - Monroe crashes by hour (`monroe_by_hour.png`)
+- Built KDE hotspot heatmap for Monroe (`monroe_kde.png`)
+- Saved outputs in `outputs/figures/`
+- Added `Crashspot_Week2_Starter.ipynb` notebook
+- 📄 Report: [Week 2 Report (PDF)](https://MistaZero07.github.io/crashspot-research/Crashspot_Week2_Report.pdf)
+
 ## 🚀 Next Steps
-- Week 2: deeper cleaning + heatmaps (KDE)
 - Week 3: clustering (DBSCAN) + overlay with road data (OSM)
 - Later: predictive modeling & visualization dashboards
 
