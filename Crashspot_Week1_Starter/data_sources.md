@@ -1,17 +1,15 @@
 # Crashspot — Data Sources Log
 
-> Fill this out as you collect datasets. This will save you time later during report writing.
-
 ## Accident Data
-- **Source name**: 
-- **URL / access method**: 
-- **Spatial coverage / years**: 
-- **Format**: (CSV, Shapefile, GeoPackage, etc.)
-- **Fields of interest**: latitude, longitude, date/time, severity, road name, etc.
-- **License / usage notes**: 
-- **Last updated**: 
+- **Source name**: Fatality Analysis Reporting System (FARS) 
+- **URL / access method**: https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/
+- **Spatial coverage / years**: Nationwide, 2022–2023 (filtered to Louisiana + Monroe)
+- **Format**: CSV converted to GeoJSON
+- **Fields of interest**: latitude, longitude, YEAR, MONTH, DAY, HOUR, severity, county, state
+- **License / usage notes**: Public, US government dataset (free to use)
+- **Last updated**: Downloaded Sept 2025
 
-## Road Network / Conditions
+## Road Network / Conditions (OSM prep for Week 3)
 - **Source name**: (OpenStreetMap / City public works / DOT pavement)
 - **URL / access method**: 
 - **Attributes available**: surface, lanes, lighting, speed limit, etc.
@@ -19,13 +17,19 @@
 - **License / usage notes**: 
 - **Last updated**: 
 
-## Environmental / Context
+## Environmental / Context (future if needed)
 - **Traffic counts**: 
 - **Land use**: 
 - **Weather**: 
 - **Other**: 
 
 ## Processing Notes
-- **CRS used**: (e.g., EPSG:4326 WGS84)
-- **Cleaning steps**: duplicates removed, null coords handled, etc.
-- **Known caveats**: 
+- **CRS used**: WGS84 (EPSG:4326)
+- **Cleaning steps**:
+  Filtered to STATE=22 (Louisiana)
+  Filtered to COUNTY=73 (Ouachita / Monroe subset)
+  Removed null or invalid coordinates
+  Saved as cleaned GeoJSONs
+- **Known caveats**:
+  FARS covers fatal crashes only (not all accidents)
+  OSM road attributes vary in completeness
