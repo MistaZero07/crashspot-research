@@ -26,17 +26,25 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 
 
-
 ---
 
 ## Week 2 (Sept 8–14, 2025)
-**Planned Focus:** Cleaning + Exploratory Mapping
+**Focus:** Cleaning + Exploratory Mapping
 
-- [ ] Standardize important columns (date, severity)
-- [ ] Handle duplicates, nulls more systematically
-- [ ] Generate Kernel Density Estimation (KDE) heatmaps (QGIS + Python)
-- [ ] Parish-level crash summaries
-- [ ] Add OSM road data into project (`data_raw/`)
+✅ Standardized important columns (YEAR, MONTH, DAY, HOUR → numeric)  
+✅ Built DATE field for easier grouping  
+✅ Cleaned invalid coordinates, confirmed CRS = WGS84 (EPSG:4326)  
+✅ Generated summary tables (year, month, hour, county)  
+✅ Created bar charts:  
+   - Louisiana crashes by month → `la_by_month.png`  
+   - Monroe crashes by hour → `monroe_by_hour.png`  
+✅ Produced Kernel Density Estimation (KDE) heatmap for Monroe → `monroe_kde.png`  
+✅ Added Week 2 starter notebook → `Crashspot_Week2_Starter/Crashspot_Week2_Starter.ipynb`  
+📄 Report: [Week 2 Report (PDF)](Crashspot_Week2_Report.pdf)
+
+
+
+
 
 ---
 
