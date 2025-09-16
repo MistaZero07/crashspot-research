@@ -25,8 +25,7 @@ Crashspot/
   - `fars_monroe_2022_2023_clean.geojson`
 - Generated first interactive map:
   - `outputs/maps/monroe_fars_2022_2023.html`
-- Report: `docs/Crashspot_Week1_Report.docx`
-- Workflow diagram: `docs/Week1_Workflow.png`
+- Report: `docs/Crashspot_Week1_Report.pdf`
 
 ## 🗂️ Week 2 Accomplishments
 - Standardized FARS fields (YEAR, MONTH, DAY, HOUR → numeric + DATE column)
