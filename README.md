@@ -40,9 +40,20 @@ Crashspot/
 - Added `Crashspot_Week2_Starter.ipynb` notebook
 - 📄 Report: [Week 2 Report (PDF)](https://MistaZero07.github.io/crashspot-research/Crashspot_Week2_Report.pdf)
 
-## 🚀 Next Steps
-- Week 3: clustering (DBSCAN) + overlay with road data (OSM)
-- Later: predictive modeling & visualization dashboards
+## 🗂️ Week 3 Accomplishments
+- Applied DBSCAN clustering on Monroe crashes (2022–2023)  
+  - eps = 600 m, min_samples = 3 → 1 cluster detected  
+  - Saved results → `data_clean/fars_monroe_clusters.geojson`
+- Generated outputs:
+  - `outputs/figures/monroe_cluster_sizes.png` → cluster size bar chart
+  - [`docs/maps/week3_monroe_clusters.html`](https://MistaZero07.github.io/crashspot-research/maps/week3_monroe_clusters.html) → interactive cluster map
+- Loaded Monroe OSM road network (`monroe_roads.geojson`)
+- Spatial join: crashes → nearest road segments (~30 m)
+  - Saved results → `data_clean/monroe_roads_with_crash_counts.geojson`
+  - [`docs/maps/week3_monroe_roads_counts.html`](https://MistaZero07.github.io/crashspot-research/maps/week3_monroe_roads_counts.html) → interactive road crash density map
+- Reports:
+  - `docs/Crashspot_Week3_Report.pdf`
+    
 
 ## 📊 Data Sources
 - **FARS (Fatality Analysis Reporting System)** — NHTSA  
