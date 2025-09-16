@@ -58,4 +58,3 @@ Crashspot/
 ## 📊 Data Sources
 - **FARS (Fatality Analysis Reporting System)** — NHTSA  
   [link](https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars)  
-- Raw CSVs not included here; place them in `data_raw/`.
