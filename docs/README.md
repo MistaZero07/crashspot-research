@@ -44,16 +44,25 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 
 
-
-
 ---
 
 ## Week 3 (Sept 15–21, 2025)
-**Planned Focus:** Spatial Analysis
 
-- [ ] Apply DBSCAN clustering to crash data
-- [ ] Overlay crash clusters with road attributes (surface, speed, lanes)
-- [ ] Correlation analysis between crashes and road features
+**Focus:** Spatial Analysis (Clustering + Road Overlay)
+
+✅ Applied DBSCAN clustering on Monroe crashes (2022–2023)  
+   • eps = 600 m, min_samples = 3 → 1 cluster detected  
+   • Saved results → `data_clean/fars_monroe_clusters.geojson`
+✅ Generated outputs:  
+   • `outputs/figures/monroe_cluster_sizes.png` → cluster size bar chart  
+   • [`docs/maps/week3_monroe_clusters.html`](https://MistaZero07.github.io/crashspot-research/maps/week3_monroe_clusters.html) → interactive cluster map  
+✅ Loaded Monroe OSM road network (`monroe_roads.geojson`)  
+✅ Spatial join: crashes → nearest road segments (~30 m)  
+   • Saved results → `data_clean/monroe_roads_with_crash_counts.geojson`  
+   • [`docs/maps/week3_monroe_roads_counts.html`](https://MistaZero07.github.io/crashspot-research/maps/week3_monroe_roads_counts.html) → interactive road crash density map  
+✅ Added Week 3 starter notebook → `Crashspot_Week3_Starter/Crashspot_Week3_Starter.ipynb`  
+📄 Report: [Week 3 Report (PDF)](Crashspot_Week3_Report.pdf)  
+
 
 ---
 
