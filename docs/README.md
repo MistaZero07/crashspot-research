@@ -5,7 +5,7 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 ---
 
-## Week 1 (Sept 1–7, 2025)
+## Week 1 
 **Focus:** Project setup + crash data foundation
 
 - ✅ Environment set up (Python, QGIS, ArcGIS, repo structure)
@@ -28,7 +28,7 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 ---
 
-## Week 2 (Sept 8–14, 2025)
+## Week 2 
 **Focus:** Cleaning + Exploratory Mapping
 
 ✅ Standardized important columns (YEAR, MONTH, DAY, HOUR → numeric)  
@@ -46,8 +46,7 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 ---
 
-## Week 3 (Sept 15–21, 2025)
-
+## Week 3 
 **Focus:** Spatial Analysis (Clustering + Road Overlay)
 
 ✅ Applied DBSCAN clustering on Monroe crashes (2022–2023)  
@@ -66,7 +65,7 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 ---
 
-## Week 4 (Sept 22–28, 2025)
+## Week 4 
 **Planned Focus:** Model Preparation
 
 - [ ] Engineer features: road type, pavement, traffic density, land use, weather
@@ -76,7 +75,7 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 ---
 
-## Week 5 (Sept 29–Oct 5, 2025)
+## Week 5 
 **Planned Focus:** Model Training
 
 - [ ] Tune Random Forest / Gradient Boosting models
@@ -85,7 +84,7 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 ---
 
-## Week 6 (Oct 6–12, 2025)
+## Week 6 
 **Planned Focus:** Model Testing + Validation
 
 - [ ] Validate predictions on test set
@@ -93,7 +92,7 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 ---
 
-## Week 7 (Oct 13–19, 2025)
+## Week 7
 **Planned Focus:** Visualization & Dashboard
 
 - [ ] Build interactive maps with Folium/Kepler.gl
@@ -102,7 +101,7 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 ---
 
-## Week 8 (Oct 20–31, 2025)
+## Week 8 
 **Planned Focus:** Wrap-up & Reporting
 
 - [ ] Write final research report (methods, results, discussion)
