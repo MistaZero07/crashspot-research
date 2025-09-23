@@ -65,13 +65,24 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 ---
 
-## Week 4 
-**Planned Focus:** Model Preparation
+### Week 4 (Sept 22–28, 2025)
+**Focus: Kernel Density Estimation (KDE) + Heatmaps**
 
-- [ ] Engineer features: road type, pavement, traffic density, land use, weather
-- [ ] Define target variable (crash occurrence/density)
-- [ ] Split into train/test datasets
-- [ ] Run baseline models (Logistic Regression, Random Forest)
+✅ Selected optimal KDE bandwidths (GridSearchCV + fallbacks)  
+✅ Generated KDE rasters for Monroe and Louisiana  
+   • Monroe → fine-scale grid (~120 m cells)  
+   • Louisiana → coarse-scale grid (~2000 m cells, upsized as needed)  
+✅ Produced static raster heatmaps  
+   • docs/maps/kde_monroe_vs_louisiana.png  
+   • docs/maps/la_kde.png  
+✅ Created interactive Folium heatmaps  
+   • docs/maps/week4_monroe_heatmap.html  
+   • docs/maps/week4_louisiana_heatmap.html  
+✅ Exported GeoTIFF rasters for GIS use (QGIS/ArcGIS)  
+   • outputs/geotiff/monroe_kde.tif  
+   • outputs/geotiff/la_kde.tif  
+✅ Added Week 4 starter notebook → `Crashspot_Week4_Starter/Crashspot_Week4_Starter.ipynb`  
+📄 Report: [Week 4 Report (PDF)](Crashspot_Week4_Report.pdf)
 
 ---
 
