@@ -52,6 +52,23 @@ Crashspot/
   - [`docs/maps/week3_monroe_roads_counts.html`](https://MistaZero07.github.io/crashspot-research/maps/week3_monroe_roads_counts.html) → interactive road crash density map
 - Reports:
   - `docs/Crashspot_Week3_Report.pdf`
+ 
+## 🗂️ Week 3 Accomplishments
+- Selected KDE bandwidths (GridSearchCV + safe defaults)  
+  - Monroe → fine resolution (~120 m cells)  
+  - Louisiana → coarse resolution (~2000 m cells)  
+- Generated KDE raster heatmaps  
+  - docs/maps/kde_monroe_vs_louisiana.png → side-by-side comparison  
+  - docs/maps/la_kde.png → statewide KDE  
+- Built interactive Folium heatmaps  
+  - docs/maps/week4_monroe_heatmap.html → Monroe hotspots  
+  - docs/maps/week4_louisiana_heatmap.html → Louisiana hotspots  
+- Exported GeoTIFF rasters for GIS analysis  
+  - outputs/geotiff/monroe_kde.tif  
+  - outputs/geotiff/la_kde.tif  
+- Reports:  
+  - docs/Crashspot_Week4_Report.pdf
+
     
 
 ## 📊 Data Sources
