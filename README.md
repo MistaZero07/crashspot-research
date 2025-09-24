@@ -53,7 +53,7 @@ Crashspot/
 - Reports:
   - `docs/Crashspot_Week3_Report.pdf`
  
-## 🗂️ Week 3 Accomplishments
+## 🗂️ Week 4 Accomplishments
 - Selected KDE bandwidths (GridSearchCV + safe defaults)  
   - Monroe → fine resolution (~120 m cells)  
   - Louisiana → coarse resolution (~2000 m cells)  
