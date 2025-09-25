@@ -69,7 +69,23 @@ Crashspot/
 - Reports:  
   - docs/Crashspot_Week4_Report.pdf
 
-    
+## 🗂️ Week 5 Accomplishments
+- Engineered features from crash data
+  - Temporal: hour, month, weekday, is_weekend, is_night
+  - Crash attributes: ve_total, persons, peds
+- Defined target variable: target_multiveh (multi-vehicle crash indicator)
+- Split into train/test datasets (stratified, 80/20 split)
+- Trained baseline models
+  - Logistic Regression → accuracy = 1.0, f1 = 1.0
+  - Random Forest → accuracy = 1.0, f1 = 1.0
+- Generated outputs
+  - docs/figures/week5_model_eval.png → confusion matrices
+  - docs/figures/week5_rf_feature_importance.png → feature importance chart
+  - data_clean/week5_features.csv → engineered features
+- Added Crashspot_Week5_Starter.ipynb notebook
+- Reports
+  - docs/Crashspot_Week5_Report.pdf
+
 
 ## 📊 Data Sources
 - **FARS (Fatality Analysis Reporting System)** — NHTSA  
