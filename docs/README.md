@@ -65,7 +65,7 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 ---
 
-### Week 4 (Sept 22–28, 2025)
+### Week 4
 **Focus: Kernel Density Estimation (KDE) + Heatmaps**
 
 ✅ Selected optimal KDE bandwidths (GridSearchCV + fallbacks)  
@@ -86,12 +86,26 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 ---
 
-## Week 5 
-**Planned Focus:** Model Training
+### Week 5
+**Focus: Model Preparation + Baseline ML Models**
 
-- [ ] Tune Random Forest / Gradient Boosting models
-- [ ] Evaluate accuracy, precision, recall, AUC
-- [ ] Identify top predictive features
+- ✅ Engineered numeric features  
+  - `hour`, `month`, `weekday`, `is_weekend`, `is_night`, `ve_total`, `persons`, `peds`
+- ✅ Defined binary target variable:  
+  - `target_multiveh` → multi-vehicle crash (1=yes, 0=no)
+- ✅ Split dataset into train/test (80/20)
+- ✅ Trained baseline models:  
+  - Logistic Regression  
+  - Random Forest
+- ✅ Generated evaluation outputs:  
+  - `docs/figures/week5_model_eval.png` → confusion matrices (LR vs RF)  
+  - `docs/figures/week5_rf_feature_importance.png` → Random Forest feature importances
+- ✅ Saved engineered dataset:  
+  - `data_clean/week5_features.csv`
+- ✅ Added Week 5 starter notebook:  
+  - `Crashspot_Week5_Starter/Crashspot_Week5_Starter.ipynb`
+- 📑 Report:  
+  - `docs/Crashspot_Week5_Report.pdf`
 
 ---
 
