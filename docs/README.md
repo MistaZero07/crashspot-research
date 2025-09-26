@@ -134,13 +134,30 @@ This document tracks weekly progress for the **Crashspot Research Project**
   - `docs/Crashspot_Week6_Report.pdf`
 
 ---
-
 ## Week 7
-**Planned Focus:** Visualization & Dashboard
 
-- [ ] Build interactive maps with Folium/Kepler.gl
-- [ ] Create dashboard-style output (Streamlit or ArcGIS StoryMap)
-- [ ] Highlight Monroe hotspots + statewide comparison
+**Focus:** Hyperparameter tuning + robust evaluation
+
+- ✅ Tuned models with hyperparameter optimization  
+  - Random Forest → RandomizedSearchCV  
+  - Gradient Boosting → GridSearchCV
+- ✅ Evaluated on test set  
+  - Generated classification reports & confusion matrices  
+  - Achieved 100% accuracy, precision, recall, and F1 (small dataset caveat)  
+- ✅ Performed robust validation  
+  - Stratified 5-Fold Cross-Validation (F1, ROC AUC = 1.000)  
+  - Shuffle-label test confirmed no leakage  
+- ✅ Produced evaluation outputs:  
+  - docs/figures/week7_roc_RF_tuned.png → ROC curve (RF tuned)  
+  - docs/figures/week7_pr_RF_tuned.png → Precision–Recall curve (RF tuned)  
+  - docs/figures/week7_roc_GB_tuned.png → ROC curve (GB tuned)  
+  - docs/figures/week7_pr_GB_tuned.png → Precision–Recall curve (GB tuned)  
+- ✅ Saved artifacts:  
+  - models/week7_best_model.pkl → serialized best model  
+- ✅ Added Week 7 starter notebook:  
+  - Crashspot_Week7_Starter.ipynb  
+- 📄 Report:  
+  - docs/Crashspot_Week7_Report.pdf  
 
 ---
 
