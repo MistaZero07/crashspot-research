@@ -86,6 +86,27 @@ Crashspot/
 - Reports
   - docs/Crashspot_Week5_Report.pdf
 
+## 🗂️ Week 6 Accomplishments
+
+- Addressed class imbalance  
+  - Logistic Regression & Random Forest with `class_weight="balanced"`  
+  - Applied SMOTE oversampling (when available)
+- Added third model: Gradient Boosting Classifier
+- Compared models using validation F1-score  
+  - Best performer: Random Forest (balanced)
+- Evaluated on test set  
+  - Generated classification report & confusion matrix  
+  - Achieved near-perfect accuracy (small dataset caveat)
+- Generated outputs:  
+  - docs/figures/week6_roc.png → ROC curve (best model)  
+  - docs/figures/week6_pr.png → Precision–Recall curve (best model)  
+  - data_clean/week6_features.csv → engineered dataset snapshot  
+- Saved artifacts:  
+  - models/week6_best_model.pkl → serialized best model  
+- Added Crashspot_Week6_Starter.ipynb notebook
+- Report:  
+  - docs/Crashspot_Week6_Report.pdf
+
 
 ## 📊 Data Sources
 - **FARS (Fatality Analysis Reporting System)** — NHTSA  
