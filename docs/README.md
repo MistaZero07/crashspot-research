@@ -161,12 +161,17 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 ---
 
-## Week 8 
-**Planned Focus:** Wrap-up & Reporting
+# Week 8
 
-- [ ] Write final research report (methods, results, discussion)
-- [ ] Create presentation slides for conference
-- [ ] Finalize maps, figures, dashboard
-- [ ] Submit project deliverables
+## 📌 Focus
+- Model interpretation using feature importance methods  
+- Spatial integration of predictions into an interactive hotspot map  
+
+## ✅ Accomplishments
+- ✅ Completed model interpretation using **Permutation Importance**  
+- ✅ Identified **ve_total (number of vehicles)** as the strongest predictor of multi-vehicle crashes  
+- ✅ Exported figure: `docs/figures/week8_permutation_importance.png`  
+- ✅ Generated interactive hotspot map: `docs/maps/week8_predicted_hotspots.html`  
+- ✅ Confirmed pipeline completion with message: *“Week 8 completed cells ready.”*  
 
 ---
