@@ -134,6 +134,16 @@ Crashspot/
 - Generated **interactive hotspot map**: `docs/maps/week8_predicted_hotspots.html`  
 - Confirmed pipeline completion with message: *“Week 8 completed cells ready.”*  
 
+## ✅ Research Phase Completed (Weeks 1–8)
+By the end of September, I successfully completed all eight weeks of the Crashspot research pipeline:
+
+- Week 1–4: Data cleaning, feature engineering, clustering, and hotspot analysis  
+- Week 5–7: Baseline + tuned machine learning models, evaluation, and comparison  
+- Week 8: Model interpretation (feature importance) and spatial integration into interactive maps  
+
+This concludes the **research phase** of Crashspot.  
+Next step: transition into an **application/web app** to showcase interactive crash hotspot analysis.
+
 
 ## 📊 Data Sources
 - **FARS (Fatality Analysis Reporting System)** — NHTSA  
