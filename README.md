@@ -87,7 +87,6 @@ Crashspot/
   - docs/Crashspot_Week5_Report.pdf
 
 ## 🗂️ Week 6 Accomplishments
-
 - Addressed class imbalance  
   - Logistic Regression & Random Forest with `class_weight="balanced"`  
   - Applied SMOTE oversampling (when available)
@@ -106,6 +105,28 @@ Crashspot/
 - Added Crashspot_Week6_Starter.ipynb notebook
 - Report:  
   - docs/Crashspot_Week6_Report.pdf
+
+## 🗂️ Week 7 Accomplishments
+- Tuned models with hyperparameter optimization
+  - Random Forest → RandomizedSearchCV  
+  - Gradient Boosting → GridSearchCV  
+- Evaluated on test set  
+  - Generated classification reports & confusion matrices  
+  - Achieved 100% accuracy, precision, recall, and F1 (small dataset caveat)  
+- Performed robust validation  
+  - tratified 5-Fold Cross-Validation (F1, ROC AUC = 1.000)  
+  - shuffle-label test confirmed no leakage  
+- Generated outputs:  
+  - docs/figures/week7_roc_RF_tuned.png → ROC curve (RF tuned)  
+  - docs/figures/week7_pr_RF_tuned.png → Precision–Recall curve (RF tuned)  
+  - docs/figures/week7_roc_GB_tuned.png → ROC curve (GB tuned)  
+  - docs/figures/week7_pr_GB_tuned.png → Precision–Recall curve (GB tuned)  
+- Saved artifacts:  
+  - models/week7_best_model.pkl → serialized best model  
+- Added Crashspot_Week7_Starter.ipynb notebook  
+- Report:  
+  - docs/Crashspot_Week7_Report.pdf  
+
 
 
 ## 📊 Data Sources
