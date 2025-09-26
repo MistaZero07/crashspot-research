@@ -109,11 +109,29 @@ This document tracks weekly progress for the **Crashspot Research Project**
 
 ---
 
-## Week 6 
-**Planned Focus:** Model Testing + Validation
+## Week 6
+**Focus:** Model enhancement + class imbalance handling + Gradient Boosting
 
-- [ ] Validate predictions on test set
-- [ ] Document errors, limitations, feature importance
+- ✅ Addressed **class imbalance**  
+  - Logistic Regression & Random Forest with `class_weight="balanced"`  
+  - Applied **SMOTE oversampling** for minority class (when available)  
+- ✅ Added **third model**: Gradient Boosting Classifier  
+- ✅ Compared models using **validation F1-score**  
+  - Best performer: Random Forest (balanced)  
+- ✅ Evaluated on test set  
+  - Generated **classification report & confusion matrix**  
+  - Achieved near-perfect accuracy (small dataset caveat)  
+- ✅ Produced evaluation outputs:  
+  - `docs/figures/week6_roc.png` → ROC curve (best model)  
+  - `docs/figures/week6_pr.png` → Precision–Recall curve (best model)  
+  - *(optional)* `docs/figures/week6_val_results.csv` → validation comparison table  
+- ✅ Saved artifacts:  
+  - `models/week6_best_model.pkl` → serialized best model  
+  - `data_clean/week6_features.csv` → engineered dataset snapshot  
+- ✅ Added Week 6 starter notebook:  
+  - `Crashspot_Week6_Starter.ipynb`  
+- 📑 Report:  
+  - `docs/Crashspot_Week6_Report.pdf`
 
 ---
 
